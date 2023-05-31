@@ -15,30 +15,30 @@
 
   {
     "id": 3,
+    "name": "Pepsi Light",
+    "price": 12000,
+    "imagePath": "../../assets/pepsi_light.png"
+  },
+
+  {
+    "id": 4,
     "name": "Coca Cola",
     "price": 8500,
     "imagePath": "../../assets/coca.png"
   },
 
   {
-    "id": 4,
+    "id": 5,
     "name": "Coca Cola Zero",
     "price": 12000,
     "imagePath": "../../assets/coca_zero.png"
   },
 
   {
-    "id": 5,
-    "name": "Coca Cola Cherry",
-    "price": 30000,
-    "imagePath": "../../assets/coca_cherry.png"
-  },
-
-  {
     "id": 6,
-    "name": "7Up",
-    "price": 10000,
-    "imagePath": "../../assets/7up.png"
+    "name": "Coca Cola Light",
+    "price": 12000,
+    "imagePath": "../../assets/coca_light.png"
   },
 
   {
@@ -57,50 +57,71 @@
 
   {
     "id": 9,
+    "name": "Fanta Grape",
+    "price": 8000,
+    "imagePath": "../../assets/fanta_grape.png"
+  },
+
+  {
+    "id": 10,
+    "name": "7Up",
+    "price": 10000,
+    "imagePath": "../../assets/7up.png"
+  },
+
+  {
+    "id": 11,
     "name": "Sprite",
     "price": 9000,
     "imagePath": "../../assets/sprite.png"
   },
 
   {
-    "id": 10,
+    "id": 12,
+    "name": "Coca Cola Cherry",
+    "price": 30000,
+    "imagePath": "../../assets/coca_cherry.png"
+  },
+
+  {
+    "id": 13,
+    "name": "Red Bull",
+    "price": 20000,
+    "imagePath": "../../assets/redbull.png"
+  },
+
+  {
+    "id": 14,
+    "name": "Red Bull Red",
+    "price": 15000,
+    "imagePath": "../../assets/redbull_red.png"
+  },
+
+  {
+    "id": 15,
+    "name": "Red Bull Purple",
+    "price": 10000,
+    "imagePath": "../../assets/redbull_purple.png"
+  },
+
+  {
+    "id": 16,
     "name": "Izze",
     "price": 20000,
     "imagePath": "../../assets/izze.png"
   },
 
   {
-    "id": 11,
+    "id": 17,
     "name": "Monster",
     "price": 30000,
     "imagePath": "../../assets/monster.png"
   },
 
   {
-    "id": 12,
-    "name": "Redbull",
-    "price": 20000,
-    "imagePath": "../../assets/redbull.png"
-  },
-
-  {
-    "id": 13,
-    "name": "High Brew Coffee",
-    "price": 15000,
-    "imagePath": "../../assets/high_brew.png"
-  },
-
-  {
-    "id": 14,
-    "name": "Nescafe",
-    "price": 10000,
-    "imagePath": "../../assets/coca_zero.png"
-  },
-
-  {
-    "id": 15,
-    "name": "Starbuck Coffee",
+    "id": 18,
+    "name": "Monster Ultra",
     "price": 30000,
-    "imagePath": "../../assets/starbuck.png"
+    "imagePath": "../../assets/monster_ultra.png"
   }
 ]

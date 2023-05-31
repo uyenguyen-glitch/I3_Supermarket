@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.swiper-pagination {
+  width: full;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: red !important;
+}

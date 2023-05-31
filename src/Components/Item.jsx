@@ -1,9 +1,9 @@
 import React from "react";
 
-const Item = ({ product }) => {
+const Item = ({ product, onSelect }) => {
   return (
-    <div className="container w-56 bg-white rounded-md border-2 border-black">
-      <div className="bg-slate-50 rounded-md h-56 ">
+    <div className="container shadow-2xl w-56 bg-white border-2 border-transparent rounded-lg  hover:border-dashed hover:border-myRed hover:border-2">
+      <div className="rounded-lg h-56">
         <img
           src={product.imagePath}
           alt={product.name}
@@ -11,12 +11,13 @@ const Item = ({ product }) => {
         />
       </div>
 
-      <div className="content-part h-full w-full">
-        <h3>{product.name}</h3>
+      <div className="content-part h-full w-full p-4">
+        <h3 className="font-bold">{product.name}</h3>
         <p>{product.price}</p>
         <button
           type="submit"
-          className="rounded-full border-2 w-12 border-red-400 bg-red-600"
+          className="rounded-lg w-20  bg-myRed border-myRed border-2 hover:bg-white hover:myRed text-white hover:text-myRed"
+          onClick={() => onSelect(product)}
         >
           Mua
         </button>
