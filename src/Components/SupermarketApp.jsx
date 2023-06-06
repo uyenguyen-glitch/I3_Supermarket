@@ -83,7 +83,7 @@ const SupermarketApp = () => {
   };
 
   // Handle purchase confirmation
-  const handlePurchseConfirm = () => {
+  const handleConfirm = () => {
     alert("Bạn đã mua hàng thành công");
     setSelectedItems([]);
   };
@@ -95,7 +95,7 @@ const SupermarketApp = () => {
         onIncrease={handleIncrease}
         onDecrease={handleDecrease}
         onDelete={handleDelete}
-        onConfirm={handlePurchseConfirm}
+        onConfirm={handleConfirm}
       />
     </div>
   );
